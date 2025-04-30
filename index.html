@@ -3,83 +3,141 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Naga Sai Yadlapalli | Java Full Stack Developer</title>
+  <title>Naga Sai Yadlapalli | Full Stack Developer</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      padding: 40px;
-      max-width: 800px;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 900px;
       margin: auto;
-      background-color: #f4f4f4;
+      padding: 30px 20px;
     }
+
     h1 {
-      color: #2c3e50;
+      margin: 0;
+      font-size: 32px;
     }
+
+    p.title {
+      font-size: 18px;
+      margin-top: 5px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #2c3e50;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
     a {
       color: #0077cc;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
-    .section {
-      margin-bottom: 40px;
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      font-size: 14px;
     }
-    ul {
-      list-style-type: square;
-      padding-left: 20px;
+
+    @media (max-width: 600px) {
+      header, main {
+        padding: 20px 10px;
+      }
     }
   </style>
 </head>
 <body>
 
-  <h1>Naga Sai Yadlapalli</h1>
-  <p><strong>Java Full Stack Developer</strong></p>
-  <p>Email: <a href="mailto:nsdevstack@gmail.com">nsdevstack@gmail.com</a></p>
-  <p>LinkedIn: <a href="https://linkedin.com/in/naga-sai-yadlapalli" target="_blank">View Profile</a></p>
-  <p>GitHub: <a href="https://github.com/nsdevstack" target="_blank">nsdevstack</a></p>
+  <header>
+    <h1>Naga Sai Yadlapalli</h1>
+    <p class="title">Java Full Stack Developer</p>
+    <p>Email: <a href="mailto:nsdevstack@gmail.com" style="color: #fff;">nsdevstack@gmail.com</a></p>
+    <p>
+      <a href="https://linkedin.com/in/naga-sai-yadlapalli" target="_blank" style="color: #fff;">LinkedIn</a> |
+      <a href="https://github.com/nsdevstack" target="_blank" style="color: #fff;">GitHub</a>
+    </p>
+  </header>
 
-  <div class="section">
-    <h2>About Me</h2>
-    <p>I am a Java Full Stack Developer with 5+ years of experience building scalable applications using Spring Boot, Java, REST APIs, Oracle DB, HTML, CSS, and JavaScript. Currently working at Sherwin-Williams as part of the CPR team handling customer and balance-related systems.</p>
-  </div>
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am a Java Full Stack Developer with 5+ years of experience building scalable applications using Spring Boot, Java, REST APIs, Oracle DB, HTML, CSS, and JavaScript. Currently working at Sherwin-Williams as part of the CPR team, handling customer and balance-related systems.
+      </p>
+    </section>
 
-  <div class="section">
-    <h2>Skills</h2>
-    <ul>
-      <li>Java, Spring Boot, J2EE</li>
-      <li>REST APIs, Microservices</li>
-      <li>Oracle SQL, PL/SQL</li>
-      <li>HTML, CSS, JavaScript</li>
-      <li>Struts Framework</li>
-      <li>Git, GitHub Actions, Jenkins</li>
-      <li>Rancher, Stoplight, Swagger</li>
-    </ul>
-  </div>
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Java, Spring Boot, J2EE</li>
+        <li>REST APIs, Microservices</li>
+        <li>Oracle SQL, PL/SQL</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Struts Framework</li>
+        <li>Git, GitHub Actions, Jenkins</li>
+        <li>Rancher, Stoplight, Swagger</li>
+      </ul>
+    </section>
 
-  <div class="section">
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <strong>Invoice API System</strong> – Created secure RESTful APIs to fetch invoice and job details.
-        <br/>GitHub: <a href="https://github.com/nsdevstack/invoice-api" target="_blank">View Code</a>
-      </li>
-      <li>
-        <strong>Customer Lookup Portal</strong> – Developed UI and backend for real-time customer and balance data.
-        <br/>GitHub: <a href="https://github.com/nsdevstack/customer-lookup" target="_blank">View Code</a>
-      </li>
-      <li>
-        <strong>Note Reporting Tool</strong> – Built a reporting engine to count and track account-level activity daily.
-        <br/>GitHub: <a href="https://github.com/nsdevstack/note-reporter" target="_blank">View Code</a>
-      </li>
-    </ul>
-  </div>
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Invoice API System</strong> – Created secure RESTful APIs to fetch invoice and job details.
+          <br/><a href="https://github.com/nsdevstack/invoice-api" target="_blank">View Code</a>
+        </li>
+        <li>
+          <strong>Customer Lookup Portal</strong> – Developed UI and backend for real-time customer and balance data.
+          <br/><a href="https://github.com/nsdevstack/customer-lookup" target="_blank">View Code</a>
+        </li>
+        <li>
+          <strong>Note Reporting Tool</strong> – Built a reporting engine to count and track account-level activity daily.
+          <br/><a href="https://github.com/nsdevstack/note-reporter" target="_blank">View Code</a>
+        </li>
+      </ul>
+    </section>
 
-  <div class="section">
-    <h2>Contact Me</h2>
-    <p>Feel free to reach out for job opportunities, collaborations, or technical discussions.</p>
-    <p><strong>Email:</strong> <a href="mailto:nsdevstack@gmail.com">nsdevstack@gmail.com</a></p>
-  </div>
+    <section>
+      <h2>Contact</h2>
+      <p>If you'd like to connect for full-time roles, freelance work, or tech discussions, feel free to reach out.</p>
+      <p>Email: <a href="mailto:nsdevstack@gmail.com">nsdevstack@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Naga Sai Yadlapalli | All rights reserved.
+  </footer>
 
 </body>
 </html>
